@@ -8,7 +8,7 @@ def load_library (file)
   }
   
   library.each do |key, value|
-    get_meaning[0] = 
+    new_hash['get_meaning'][0] = 
     
 end
 
