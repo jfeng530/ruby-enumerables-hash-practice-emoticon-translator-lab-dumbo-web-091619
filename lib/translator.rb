@@ -1,7 +1,14 @@
-# require modules here
+require "yaml"
 
-def load_library
-  # code goes here
+def load_library (file)
+  library = YAML.load_file(file)
+  new_hash = {
+    'get_meaning' = {},
+    'get_emoticon' = {}
+  }
+  
+  library.each do |key, value|
+    
 end
 
 def get_japanese_emoticon
