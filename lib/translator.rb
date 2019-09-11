@@ -17,7 +17,7 @@ end
 
 def get_japanese_emoticon (file, emoticon)
   western = load_library(file)['get_emoticon'][emoticon]
-  western = 
+  western ? western : "Sorry, it could not be found"
 end
 
 def get_english_meaning
