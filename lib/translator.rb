@@ -16,10 +16,10 @@ def load_library (file)
 end
 
 def get_japanese_emoticon (file, emoticon)
-  western = load_library(file)['get_emoticon'][emoticon]
-  western ? western : "Sorry, that emoticon was not found"
+  jap_version = load_library(file)['get_emoticon'][emoticon]
+  jap_version ? western : "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning
-  # code goes here
+  
 end
