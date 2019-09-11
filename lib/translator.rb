@@ -7,7 +7,8 @@ def load_library (file)
     'get_emoticon' => {}
   }
   
-  #library.each do |key, value|
+  library.each do |key, value|
+    get_meaning[0] = 
     
 end
 
